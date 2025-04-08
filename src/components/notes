@@ -1,5 +1,5 @@
 <footer class="bg-white dark:bg-gray-600 w-4/5 py-10">
-<div class="justify-between max-w-screen-md mx-auto text-lg font-light>
+<div class="justify-between max-w-screen-md mx-auto text-lg font-light">
          <div class="flex h-auto w-full flex-wrap items-center justify-center gap-4 bg-white py-8">
         <button class="group transition-all duration-500 hover:-translate-y-2">
           <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 93 92" fill="none">
