@@ -3,7 +3,7 @@ import React from 'react'
 const Social = () => {
     return (
 
-
+<div className='container mx-auto px-4 p-4 rounded-xl '>
 <footer class="bg-slate-100 flex justify-evenly w-xl py-10 border-2 rounded-md ">
   <div className='font-serif font-bold '>connect our socials</div>
   <button class="group transition-all duration-500 hover:-translate-y-2">
@@ -57,6 +57,7 @@ const Social = () => {
       
    
 </footer>
+</div>
     )
 }
 
