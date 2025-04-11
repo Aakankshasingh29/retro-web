@@ -16,12 +16,36 @@ const Community = () => {
     </div>
   </div>
   <div className="container mx-auto bg-red-300 p-4 rounded-md">
+    <div className=""><h1>Grow from zeroto → oneto →one million.</h1></div>
+    
+    <h2>Whether you’re just getting started on your creator journey or scaling your audience to new heights, Buffer will get your content in front of more people.</h2>
+   
+    <div>
+    <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+    <path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
+      <span>
+      Save all your ideas as inspiration strikes
+      </span>
+      </div> 
+ 
+   
+
+  
+
+
+
+
+
+
+
+
+    </div>
+
 
 
 
   </div>
 
-</div>
 
 
 
