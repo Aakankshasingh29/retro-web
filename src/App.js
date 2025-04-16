@@ -1,7 +1,8 @@
 
 import './App.css';
 import Social from './components/Social';
-import Card from './components/cards';
+import About from './components/about';
+
 import Community from './components/community';
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
     <div>
     <Social></Social>
     <Community></Community>
-    <Card></Card>
+    <About></About>
     </div>
    
   );

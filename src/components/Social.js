@@ -3,18 +3,19 @@ import React from 'react'
 const Social = () => {
     return (
 
-<div className='container mx-auto px-4 p-4 rounded-xl '>
+<div className='container mx-auto px-4 p-4 rounded-xl contain-inline-size '>
 <footer class="bg-slate-100 flex justify-evenly w-xl py-10 border-2 rounded-md ">
-  <div className='font-serif font-bold '>connect our socials</div>
+  <h2>connect our socials</h2>
   <div class="bg-white w-full h-auto py-8  flex justify-evenly  gap-4 flex-wrap">
-{/* <button class="w-10 h-10 flex items-center justify-center relative overflow-hidden rounded-full bg-white shadow-md shadow-gray-200 group transition-all duration-300">
+  <div class="bg-white w-full h-auto py-8 flex items-center justify-evenly gap-4 flex-wrap">
+<button class="w-10 h-10 flex items-center justify-center relative overflow-hidden rounded-full bg-white shadow-md shadow-gray-200 group transition-all duration-300">
 <svg class="relative z-10 fill-gray-900 transition-all duration-300 group-hover:fill-white" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 72 72" fill="none">
   <path
     d="M46.4927 38.6403L47.7973 30.3588H39.7611V24.9759C39.7611 22.7114 40.883 20.4987 44.4706 20.4987H48.1756V13.4465C46.018 13.1028 43.8378 12.9168 41.6527 12.8901C35.0385 12.8901 30.7204 16.8626 30.7204 24.0442V30.3588H23.3887V38.6403H30.7204V58.671H39.7611V38.6403H46.4927Z"
     fill="" />
 </svg>
 <div class="absolute top-full left-0 w-full h-full rounded-full bg-blue-500 z-0 transition-all duration-500 group-hover:top-0"></div>
-</button> */}
+</button>
 
 <button class="w-10 h-10 flex items-center justify-center rounded-full relative overflow-hidden bg-white shadow-md shadow-gray-200 group transition-all duration-500">
 <svg class="fill-gray-900 relative z-10 transition-all duration-500 group-hover:fill-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 51 51" fill="none">
@@ -51,7 +52,7 @@ const Social = () => {
 <div class="absolute top-full left-0 w-full h-full rounded-full bg-black z-0 transition-all duration-500 group-hover:top-0"></div>
 </button>
 
-{/* <button class="w-10 h-10 flex items-center justify-center relative overflow-hidden rounded-full bg-white shadow-md shadow-gray-200 group transition-all duration-300">
+<button class="w-10 h-10 flex items-center justify-center relative overflow-hidden rounded-full bg-white shadow-md shadow-gray-200 group transition-all duration-300">
 <svg class="fill-gray-900 relative z-10 transition-all duration-300 group-hover:fill-white" xmlns="http://www.w3.org/2000/svg" width="20" height="24" viewBox="0 0 42 47" fill="none">
 <path fill-rule="evenodd" clip-rule="evenodd"
   d="M30.6721 17.4285C33.7387 19.6085 37.4112 20.7733 41.1737 20.7592V13.3024C40.434 13.3045 39.6963 13.2253 38.9739 13.0663V19.0068C35.203 19.0135 31.5252 17.8354 28.4599 15.6389V30.9749C28.4507 33.4914 27.7606 35.9585 26.4628 38.1146C25.165 40.2706 23.3079 42.0353 21.0885 43.2215C18.8691 44.4076 16.37 44.9711 13.8563 44.852C11.3426 44.733 8.90795 43.9359 6.81055 42.5453C8.75059 44.5082 11.2295 45.8513 13.9333 46.4044C16.6372 46.9576 19.4444 46.6959 21.9994 45.6526C24.5545 44.6093 26.7425 42.8312 28.2864 40.5436C29.8302 38.256 30.6605 35.5616 30.6721 32.8018V17.4285ZM33.3938 9.82262C31.8343 8.13232 30.8775 5.97386 30.6721 3.68324V2.71387H28.5842C28.8423 4.16989 29.4039 5.5553 30.2326 6.78004C31.0612 8.00479 32.1383 9.04144 33.3938 9.82262ZM11.645 36.642C10.9213 35.6957 10.4779 34.5653 10.365 33.3793C10.2522 32.1934 10.4746 30.9996 11.0068 29.9338C11.5391 28.8681 12.3598 27.9731 13.3757 27.3508C14.3915 26.7285 15.5616 26.4039 16.7529 26.4139C17.4106 26.4137 18.0644 26.5143 18.6916 26.7121V19.0068C17.9584 18.9097 17.2189 18.8682 16.4794 18.8826V24.8728C14.9522 24.39 13.2992 24.4998 11.8492 25.1803C10.3992 25.8608 9.25851 27.0621 8.65394 28.5454C8.04937 30.0286 8.02524 31.6851 8.58636 33.1853C9.14748 34.6855 10.2527 35.9196 11.6823 36.642H11.645Z"
@@ -63,11 +64,11 @@ const Social = () => {
   d="M38.9736 13.0161V11.4129C37.0005 11.4213 35.0655 10.8696 33.3934 9.82211C34.8695 11.4493 36.8229 12.5674 38.9736 13.0161ZM28.5838 2.71335C28.5838 2.42751 28.4968 2.12924 28.4596 1.8434V0.874023H20.8785V30.9744C20.872 32.6598 20.197 34.2738 19.0017 35.4621C17.8064 36.6504 16.1885 37.3159 14.503 37.3126C13.5106 37.3176 12.5311 37.0876 11.6446 36.6415C12.4519 37.7007 13.5707 38.4805 14.8438 38.8715C16.1169 39.2624 17.4805 39.2448 18.7432 38.8212C20.0058 38.3976 21.1041 37.5892 21.8838 36.5095C22.6636 35.4298 23.0856 34.1331 23.0907 32.8013V2.71335H28.5838ZM16.4418 18.8696V17.167C13.3222 16.7432 10.1511 17.3885 7.44529 18.9977C4.73944 20.6069 2.65839 23.0851 1.54131 26.0284C0.424223 28.9718 0.336969 32.2067 1.29377 35.206C2.25057 38.2053 4.195 40.792 6.81017 42.5448C4.92871 40.5995 3.65455 38.1484 3.14333 35.4908C2.63212 32.8333 2.906 30.0844 3.9315 27.5799C4.957 25.0755 6.68974 22.924 8.91801 21.3882C11.1463 19.8524 13.7736 18.9988 16.4791 18.9318L16.4418 18.8696Z"
   fill="" />
 </svg>
-<div> class="absolute top-full left-0 w-full h-full rounded-full bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-black via-black to-red-600 z-0 transition-all duration-500 group-hover:top-0"></div>
+<div class="absolute top-full left-0 w-full h-full rounded-full bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-black via-black to-red-600 z-0 transition-all duration-500 group-hover:top-0"></div>
 
-</button> */}
+</button>
 
-{/* <button class="w-10 h-10 flex items-center relative overflow-hidden justify-center rounded-full bg-white shadow-md shadow-gray-200 group transition-all duration-300">
+<button class="w-10 h-10 flex items-center relative overflow-hidden justify-center rounded-full bg-white shadow-md shadow-gray-200 group transition-all duration-300">
 <svg class="fill-gray-900 relative z-10 transition-all duration-300 group-hover:fill-white" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 71 72" fill="none">
 <path
   d="M12.5762 56.8405L15.8608 44.6381C13.2118 39.8847 12.3702 34.3378 13.4904 29.0154C14.6106 23.693 17.6176 18.952 21.9594 15.6624C26.3012 12.3729 31.6867 10.7554 37.1276 11.1068C42.5685 11.4582 47.6999 13.755 51.5802 17.5756C55.4604 21.3962 57.8292 26.4844 58.2519 31.9065C58.6746 37.3286 57.1228 42.7208 53.8813 47.0938C50.6399 51.4668 45.9261 54.5271 40.605 55.7133C35.284 56.8994 29.7125 56.1318 24.9131 53.5513L12.5762 56.8405ZM25.508 48.985L26.2709 49.4365C29.7473 51.4918 33.8076 52.3423 37.8191 51.8555C41.8306 51.3687 45.5681 49.5719 48.4489 46.7452C51.3298 43.9185 53.1923 40.2206 53.7463 36.2279C54.3002 32.2351 53.5143 28.1717 51.5113 24.6709C49.5082 21.1701 46.4003 18.4285 42.6721 16.8734C38.9438 15.3184 34.8045 15.0372 30.8993 16.0736C26.994 17.11 23.5422 19.4059 21.0817 22.6035C18.6212 25.801 17.2903 29.7206 17.2963 33.7514C17.293 37.0937 18.2197 40.3712 19.9732 43.2192L20.4516 44.0061L18.6153 50.8167L25.508 48.985Z"
@@ -76,27 +77,27 @@ const Social = () => {
   d="M44.0259 36.8847C43.5787 36.5249 43.0549 36.2716 42.4947 36.1442C41.9344 36.0168 41.3524 36.0186 40.793 36.1495C39.9524 36.4977 39.4093 37.8134 38.8661 38.4713C38.7516 38.629 38.5833 38.7396 38.3928 38.7823C38.2024 38.8251 38.0028 38.797 37.8316 38.7034C34.7543 37.5012 32.1748 35.2965 30.5122 32.4475C30.3704 32.2697 30.3033 32.044 30.325 31.8178C30.3467 31.5916 30.4555 31.3827 30.6286 31.235C31.2344 30.6368 31.6791 29.8959 31.9218 29.0809C31.9756 28.1818 31.7691 27.2863 31.3269 26.5011C30.985 25.4002 30.3344 24.42 29.4518 23.6762C28.9966 23.472 28.4919 23.4036 27.9985 23.4791C27.5052 23.5546 27.0443 23.7709 26.6715 24.1019C26.0242 24.6589 25.5104 25.3537 25.168 26.135C24.8256 26.9163 24.6632 27.7643 24.6929 28.6165C24.6949 29.0951 24.7557 29.5716 24.8739 30.0354C25.1742 31.1497 25.636 32.2144 26.2447 33.1956C26.6839 33.9473 27.163 34.6749 27.6801 35.3755C29.3607 37.6767 31.4732 39.6305 33.9003 41.1284C35.1183 41.8897 36.42 42.5086 37.7799 42.973C39.1924 43.6117 40.752 43.8568 42.2931 43.6824C43.1711 43.5499 44.003 43.2041 44.7156 42.6755C45.4281 42.1469 45.9995 41.4518 46.3795 40.6512C46.6028 40.1675 46.6705 39.6269 46.5735 39.1033C46.3407 38.0327 44.9053 37.4007 44.0259 36.8847Z"
   fill="" />
 </svg>
-<div> class="absolute top-full left-0 w-full h-full rounded-full bg-green-400 z-0 transition-all duration-500 group-hover:top-0"></div>
-</button> */}
+<div  class="absolute top-full left-0 w-full h-full rounded-full bg-green-400 z-0 transition-all duration-500 group-hover:top-0"></div>
+</button>
 
-{/* <button class="w-10 h-10 flex items-center justify-center rounded-full bg-white shadow-md shadow-gray-200 group transition-all duration-300 relative overflow-hidden">
+<button class="w-10 h-10 flex items-center justify-center rounded-full bg-white shadow-md shadow-gray-200 group transition-all duration-300 relative overflow-hidden">
 <svg class="fill-gray-900 relative z-10 transition-all duration-300 group-hover:fill-white" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 71 72" fill="none">
 <path
   d="M33.3501 13.0437C25.9186 13.893 18.5132 20.0479 18.2075 28.84C18.0154 34.2083 19.5044 38.2356 24.4951 39.3664C26.6608 35.4553 23.7965 34.5927 23.3511 31.7633C21.5216 20.1686 36.4153 12.2615 44.2093 20.3563C49.6018 25.9615 46.0519 43.206 37.3541 41.4136C29.0231 39.7017 41.4323 25.9749 34.7823 23.2796C29.3767 21.0894 26.5037 29.9798 29.0667 34.396C27.5647 41.9902 24.3292 49.1464 25.6391 58.6715C29.8876 55.5158 31.3198 49.4727 32.4943 43.1702C34.6295 44.4978 35.7691 45.8789 38.4937 46.0935C48.5407 46.8891 54.1515 35.8263 52.7805 25.6218C51.5623 16.5749 42.7422 11.971 33.3501 13.0437Z"
   fill="" />
 </svg>
-<div> class="absolute top-full left-0 w-full h-full rounded-full bg-red-600 z-0 transition-all duration-500 group-hover:top-0"></div>
-</button> */}
+<div  class="absolute top-full left-0 w-full h-full rounded-full bg-red-600 z-0 transition-all duration-500 group-hover:top-0"></div>
+</button>
 
 <button class="w-10 h-10 flex items-center relative overflow-hidden justify-center rounded-full bg-white shadow-md shadow-gray-200 group transition-all duration-300">
 <svg class="fill-gray-900 relative z-10 transition-all duration-300 group-hover:fill-white"  xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 72 72" fill="none">
 <path d="M24.7612 55.999V28.3354H15.5433V55.999H24.7621H24.7612ZM20.1542 24.5591C23.3679 24.5591 25.3687 22.4348 25.3687 19.7801C25.3086 17.065 23.3679 15 20.2153 15C17.0605 15 15 17.065 15 19.7799C15 22.4346 17.0001 24.5588 20.0938 24.5588H20.1534L20.1542 24.5591ZM29.8633 55.999H39.0805V40.5521C39.0805 39.7264 39.1406 38.8985 39.3841 38.3088C40.0502 36.6562 41.5668 34.9455 44.1138 34.9455C47.4484 34.9455 48.7831 37.4821 48.7831 41.2014V55.999H58V40.1376C58 31.6408 53.4532 27.6869 47.3887 27.6869C42.4167 27.6869 40.233 30.4589 39.0198 32.347H39.0812V28.3364H29.8638C29.9841 30.9316 29.8631 56 29.8631 56L29.8633 55.999Z" 
 fill=""/>
 </svg>
-<div class="absolute top-full left-0 w-full h-full rounded-full bg-[#006699] z-0 transition-all duration-500 group-hover:top-0"></div>
+<div  class="absolute top-full left-0 w-full h-full rounded-full bg-[#006699] z-0 transition-all duration-500 group-hover:top-0"></div>
 </button>
 
-{/* <button class="w-10 h-10 flex items-center relative overflow-hidden justify-center rounded-full bg-white shadow-md shadow-gray-200 group transition-all duration-300">
+<button class="w-10 h-10 flex items-center relative overflow-hidden justify-center rounded-full bg-white shadow-md shadow-gray-200 group transition-all duration-300">
 <svg class="fill-gray-900 relative z-10 transition-all duration-500 group-hover:fill-white" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 72 72" fill="none">
 <path
   d="M35.9042 13C23.0034 13 13 22.4537 13 35.2171C13 41.8936 15.737 47.6655 20.1919 51.6508C20.5641 51.9829 20.7931 52.4525 20.8046 52.9563L20.9306 57.0333C20.9397 57.3333 21.0225 57.6264 21.1714 57.8869C21.3204 58.1474 21.5311 58.3674 21.785 58.5274C22.0389 58.6874 22.3282 58.7826 22.6275 58.8047C22.9268 58.8267 23.227 58.7749 23.5016 58.6538L28.048 56.6496C28.4317 56.4779 28.8669 56.4492 29.2734 56.558C31.3634 57.1306 33.5851 57.4398 35.9042 57.4398C48.805 57.4398 58.8084 47.9861 58.8084 35.2228C58.8084 22.4594 48.805 13 35.9042 13Z"
@@ -116,19 +117,19 @@ fill=""/>
 </defs>
 </svg>
 <div class="absolute top-full left-0 w-full h-full rounded-full bg-gradient-to-tr from-blue-500 via-purple-500 to-pink-500 z-0 transition-all duration-500 group-hover:top-0"></div>
-</button> */}
+</button>
 
-{/* <button class="w-10 h-10 flex relative overflow-hidden items-center justify-center rounded-full bg-white shadow-md shadow-gray-200 group transition-all duration-300 z-0">
+<button class="w-10 h-10 flex relative overflow-hidden items-center justify-center rounded-full bg-white shadow-md shadow-gray-200 group transition-all duration-300 z-0">
 <svg class="fill-gray-900 relative z-10 transition-all duration-300 group-hover:fill-white" 
 xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 72 72" fill="none">
 <path fill-rule="evenodd" clip-rule="evenodd"
   d="M61.03 36.015C61.03 49.8304 49.8304 61.03 36.015 61.03C22.1996 61.03 11 49.8304 11 36.015C11 22.1996 22.1996 11 36.015 11C49.8304 11 61.03 22.1996 61.03 36.015ZM38.4121 28.3392C34.1147 30.1955 21.7235 35.4671 21.7235 35.4671C18.7869 36.6551 20.5058 37.7688 20.5058 37.7688C20.5058 37.7688 23.0127 38.6599 25.1615 39.328C27.3103 39.9963 28.4563 39.2538 28.4563 39.2538C28.4563 39.2538 33.47 35.8384 38.5554 32.2002C42.1366 29.6757 41.2772 31.7547 40.4176 32.6457C38.5554 34.5762 35.4755 37.6204 32.897 40.0706C31.751 41.1101 32.324 42.001 32.8254 42.4465C34.2836 43.7256 37.718 46.0518 39.2773 47.1079C39.7093 47.4005 39.9974 47.5956 40.0596 47.6439C40.4176 47.941 42.4232 49.2774 43.6408 48.9804C44.8584 48.6834 45.0017 46.9757 45.0017 46.9757C45.0017 46.9757 45.9328 40.8873 46.7923 35.3186C46.9515 34.2252 47.1107 33.1548 47.2592 32.1567C47.645 29.5623 47.9582 27.4565 48.0099 26.7058C48.2248 24.1814 45.6463 25.2208 45.6463 25.2208C45.6463 25.2208 40.0596 27.5968 38.4121 28.3392Z"
   fill="" />
 </svg>
-<div> class="absolute top-full left-0 w-full h-full rounded-full bg-blue-400 z-0 transition-all duration-500 group-hover:top-0"></div>
-</button> */}
+<div class="absolute top-full left-0 w-full h-full rounded-full bg-blue-400 z-0 transition-all duration-500 group-hover:top-0"></div>
+</button>
 
-{/* <button class="w-10 h-10 flex items-center relative overflow-hidden justify-center rounded-full bg-white shadow-md shadow-gray-200 group transition-all duration-300">
+<button class="w-10 h-10 flex items-center relative overflow-hidden justify-center rounded-full bg-white shadow-md shadow-gray-200 group transition-all duration-300">
 <svg class="fill-gray-900 relative z-10 transition-all duration-300 group-hover:fill-white" 
 xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 72 72" fill="none">
 <path
@@ -138,10 +139,10 @@ xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 72 72" fi
   d="M62.2121 42.4484C62.2121 35.22 54.9051 29.3599 45.8956 29.3599C36.8858 29.3599 29.5799 35.22 29.5799 42.4484C29.5799 49.6763 36.8858 55.5365 45.8956 55.5365C47.3773 55.5365 48.7867 55.3271 50.1542 55.0297L58.9489 58.8084L55.9072 52.713C59.7191 50.3174 62.2121 46.6335 62.2121 42.4484ZM41.001 41.6303C39.6496 41.6303 38.5534 40.5314 38.5534 39.1757C38.5534 37.8207 39.6495 36.7222 41.001 36.7222C42.3528 36.7222 43.4482 37.8212 43.4482 39.1757C43.4482 40.5316 42.3526 41.6303 41.001 41.6303ZM50.7905 41.6303C49.4385 41.6303 48.3433 40.5314 48.3433 39.1757C48.3433 37.8207 49.4384 36.7222 50.7905 36.7222C52.1425 36.7222 53.238 37.8212 53.238 39.1757C53.238 40.5316 52.1425 41.6303 50.7905 41.6303Z"
   fill="" />
 </svg>
-<div> class="absolute top-full left-0 w-full h-full rounded-full bg-green-500 z-0 transition-all duration-500 group-hover:top-0"></div>
-</button> */}
+<div class="absolute top-full left-0 w-full h-full rounded-full bg-green-500 z-0 transition-all duration-500 group-hover:top-0"></div>
+</button>
 
-{/* <button class="w-10 h-10 flex relative overflow-hidden items-center justify-center rounded-full bg-white shadow-md shadow-gray-200 group transition-all duration-300">
+<button class="w-10 h-10 flex relative overflow-hidden items-center justify-center rounded-full bg-white shadow-md shadow-gray-200 group transition-all duration-300">
 <svg class="fill-gray-900 relative z-10 transition-all duration-300 group-hover:fill-white" 
 xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 72 72" fill="none">
 <path
@@ -160,8 +161,8 @@ xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 72 72" fi
   d="M37.9996 28.028C39.7031 28.1425 40.8913 28.9683 41.2173 30.7622C41.2568 30.992 41.2849 31.2236 41.3014 31.4562C41.3014 31.6436 41.2593 31.8032 41.0525 31.8032C40.8457 31.8032 40.7756 31.6644 40.7686 31.4562C40.7667 30.7686 40.5527 30.0979 40.1552 29.5339C39.7376 29.0231 39.1379 28.6903 38.4798 28.604C38.3327 28.5768 38.184 28.5582 38.0347 28.5485C37.7893 28.5485 37.6526 28.4271 37.6842 28.2397C37.7157 28.0523 37.8629 28.0176 37.9996 28.028Z"
   fill="" />
 </svg>
-<div> class="absolute top-full left-0 w-full h-full rounded-full bg-fuchsia-700 z-0 transition-all duration-500 group-hover:top-0"></div>
-</button> */}
+<div class="absolute top-full left-0 w-full h-full rounded-full bg-fuchsia-700 z-0 transition-all duration-500 group-hover:top-0"></div>
+</button>
 
 <button class="w-10 h-10 flex items-center relative overflow-hidden justify-center rounded-full bg-white shadow-md shadow-gray-200 group transition-all duration-300">
 <svg class="fill-gray-900 relative z-10 transition-all duration-300 group-hover:fill-white" 
@@ -223,7 +224,7 @@ xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 50 50" fi
 <div class="absolute top-full left-0 w-full h-full rounded-full bg-sky-500 z-0 transition-all duration-500 group-hover:top-0"></div>
 </button>
 
-{/* <button class="w-10 h-10 flex relative overflow-hidden items-center justify-center rounded-full bg-white shadow-md bg-opacity-0 shadow-gray-200 group transition-all duration-500">
+<button class="w-10 h-10 flex relative overflow-hidden items-center justify-center rounded-full bg-white shadow-md bg-opacity-0 shadow-gray-200 group transition-all duration-500">
 <svg class="fill-gray-900 relative z-10 transition-all duration-300 group-hover:fill-white" 
 xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 54 41" fill="none">
 <path class=""
@@ -242,8 +243,8 @@ xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 54 41" fi
   d="M0.371094 5.58702V10.4343L12.4893 19.5229V3.7693L9.09617 1.22448C5.49708 -1.47181 0.371094 1.09118 0.371094 5.58702Z"
   fill="" />
 </svg>
-<div class="absolute top-full left-0 w-full h-full rounded-full bg-red-500 z-0 transition-all duration-500 group-hover:top-0"></div>
-</button> */}
+<div  class="absolute top-full left-0 w-full h-full rounded-full bg-red-500 z-0 transition-all duration-500 group-hover:top-0"></div>
+</button>
 
 <button class="w-10 h-10 flex items-center relative overflow-hidden justify-center rounded-full bg-white shadow-md shadow-gray-200 group transition-all duration-300">
 <svg class="fill-gray-900 relative z-10 transition-all duration-300 group-hover:fill-white" 
@@ -257,8 +258,11 @@ xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 72 72" fi
 <div class="absolute top-full left-0 w-full h-full rounded-full bg-[#FF3000] z-0 transition-all duration-500 group-hover:top-0"></div>
 </button>
 </div>
+                    
+</div>
 </footer>
 </div>
+
     )
 }
 
