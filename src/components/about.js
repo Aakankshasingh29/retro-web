@@ -1,7 +1,12 @@
 import React from "react";
+import Crossy from "../assests/crossy.jpg"
+import hayday from "../assests/hayday.jpg"
+import doodle from "../assests/doodle.jpg"
+import feeding from "../assests/feeding.jpg"
 
 const About = () =>{
     return(
+      <>
         <div className="container mx-auto bg-gray-800 px-4 p-4 rounded-xl ">
             <h1 className="text-5xl font-bold  text-center p-8 mb-px text-white  font-serif  ">About Us</h1>
             <p className="font-medium text-center text-white mb-2 font-serif">We’re an optimistic and gratitude-filled group of remote workers scattered around <br></br>the world and dedicated to creating a product our customers will use and love.</p>
@@ -13,7 +18,46 @@ const About = () =>{
             </button>
 
             </div>
-        </div>
+            <div className="container mx-auto">
+            <section class="bg-zinc-50 overflow-hidden">
+ <div class="max-w-screen-xl 2xl:max-w-screen-3xl px-8 md:px-12 mx-auto py-12 lg:py-24 space-y-24 h-svh flex flex-col justify-center">
+  <div class="flex flex-col sm:flex-row mx-auto">
+   <a href="#">
+    <img src={Crossy} class="rounded-xl  rotate-6 hover:rotate-0 duration-500 hover:-translate-y-12 h-full w-full object-cover hover:scale-150 transform origin-bottom" alt="#_"/> </a>
+   <a href="#_">
+    <img src={doodle} class="rounded-xl  -rotate-10 hover:rotate-0 duration-500 hover:-translate-y-12 h-full w-full object-cover hover:scale-150 transform origin-bottom" alt="#_"/> 
+   </a>
+   
+   <a href="#_"> <img src= {hayday} class="rounded-xl  rotate-6 hover:rotate-0 duration-500 hover:-translate-y-12 h-full w-full object-cover hover:scale-150 transform origin-bottom" alt="#_"/> </a>
+   <a href="#_"> <img src={feeding} class="rounded-xl  -rotate-12 hover:rotate-0 duration-500 hover:-translate-y-12 h-full w-full object-cover hover:scale-150 transform origin-bottom" alt="#_"/> </a>
+  
+  </div> 
+  
+ </div>
+</section>
+
+ </div>
+
+
+
+ </div>
+
+<div className="container mx-auto bg-orange-200 rounded-xl px-4 p-4 " >
+  <div className="text  text-center text-red-400 mb-2 font-serif">
+      <h1 className="text-2xl p-8  font-semibold  subpixel-antialiased" >Dynamic content that players love to play across their favorite channels </h1>
+      <p className="text-4xl p-8  font-semibold  subpixel-antialiased"> It's all about</p>
+       <p className="text-6xl p-8 text-red-800 font-semibold  subpixel-antialiased"> Games </p>
+
+
+
+  </div>
+
+
+</div>
+
+</>
+      
+            
 
     )
 
