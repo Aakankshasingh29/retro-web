@@ -3,6 +3,7 @@ import Crossy from "../assests/crossy.jpg"
 import hayday from "../assests/hayday.jpg"
 import doodle from "../assests/doodle.jpg"
 import feeding from "../assests/feeding.jpg"
+import machine from "../assests/machine.jpg"
 
 const About = () =>{
     return(
@@ -42,7 +43,7 @@ const About = () =>{
 
  </div>
 
-<div className="container mx-auto bg-orange-200 rounded-xl px-4 p-4 " >
+<div className="container mx-auto ">
   <div className="text  text-center text-red-400 mb-2 font-serif">
       <h1 className="text-2xl p-8  font-semibold  subpixel-antialiased" >Dynamic content that players love to play across their favorite channels </h1>
       <p className="text-4xl p-8  font-semibold  subpixel-antialiased"> It's all about</p>
@@ -51,7 +52,6 @@ const About = () =>{
 
 
   </div>
-
 
 </div>
 
