@@ -3,7 +3,9 @@ import Crossy from "../assests/crossy.jpg"
 import hayday from "../assests/hayday.jpg"
 import doodle from "../assests/doodle.jpg"
 import feeding from "../assests/feeding.jpg"
-import machine from "../assests/machine.jpg"
+import cartoon2 from "../assests/cartoon2.jpg"
+
+
 
 const About = () =>{
     return(
@@ -43,18 +45,18 @@ const About = () =>{
 
  </div>
 
-<div className="container mx-auto ">
-  <div className="text  text-center text-red-400 mb-2 font-serif">
-      <h1 className="text-2xl p-8  font-semibold  subpixel-antialiased" >Dynamic content that players love to play across their favorite channels </h1>
+<div className="container mx-auto rounded-xl bg-black grid grid-cols-2 gap- p-4  ">
+<div class="bg-teal-950
+        p-8 px-4 justify-between rounded-md">
+          <img src= {cartoon2} class = "rounded-xl "alt="#" />
+        </div>
+        <div class="bg-black
+        text-gray-300 p-8 px-4 justify-between rounded-xl  ">
+      <h1 className="text-4xl p-8  font-semibold  subpixel-antialiased" >in order to be popular, you had to be good at games</h1>
       <p className="text-4xl p-8  font-semibold  subpixel-antialiased"> It's all about</p>
-       <p className="text-6xl p-8 text-red-800 font-semibold  subpixel-antialiased"> Games </p>
-
-
-
-  </div>
-
+       <p className="text-6xl p-8 text- font-semibold  subpixel-antialiased "> Games</p>
+        </div>
 </div>
-
 </>
       
             
