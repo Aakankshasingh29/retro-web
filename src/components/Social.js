@@ -3,14 +3,14 @@ import React from 'react'
 const Social = () => {
     return (
 
-<div className='container mx-auto px-4 p-4 rounded-xl bg-orange-300'>
+<div className='container mx-auto px-4 p-4 bg-teal-600'>
   
   <div>
   
   <div class="bg-white w-full h-auto py-8 flex items-center justify-center gap-4 flex-wrap">
   <div className=''> <h1> connect our socials</h1></div>
   <div className=''>
-  <div class="bg-white w-full h-auto py-8 flex items-center justify-center gap-4 flex-wrap">
+  <div class="bg-white w-full h-auto py-8 flex items-center justify-center gap-4 flex-wrap rounded-lg">
 <button class="w-10 h-10 flex items-center justify-center rounded-lg bg-white shadow-md shadow-gray-200 group transition-all duration-300">
 <svg class="transition-all duration-300 group-hover:scale-110"
 xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 72 72" fill="none">

@@ -48,13 +48,13 @@ const About = () =>{
 <div className="container mx-auto rounded-xl bg-black grid grid-cols-2 gap- p-4  ">
 <div class="bg-teal-950
         p-8 px-4 justify-between rounded-md">
-          <img src= {cartoon2} class = "rounded-xl "alt="#" />
+          <img src= {cartoon2} class = "rounded-xl animate-fadeinup  "alt="#" />
         </div>
-        <div class="bg-black
-        text-gray-300 p-8 px-4 justify-between rounded-xl  ">
-      <h1 className="text-4xl p-8  font-semibold  subpixel-antialiased" >in order to be popular, you had to be good at games</h1>
-      <p className="text-4xl p-8  font-semibold  subpixel-antialiased"> It's all about</p>
-       <p className="text-6xl p-8 text- font-semibold  subpixel-antialiased "> Games</p>
+        <div class="bg-stone-900
+        text-gray-300 p-8 px-4 rounded-xl  ">
+      <h1 className="text-6xl p-8 m-8 font-semibold text-center subpixel-antialiased animate-fadeinup " >We're the architects of virtual worlds.</h1>
+      <p className="text-6xl p-8 m-8 font-semibold text-center subpixel-antialiased"> It's all about</p>
+       <p className="text-6xl p-8 m-8 text- font-semibold text-center subpixel-antialiased "> Games</p>
         </div>
 </div>
 </>
