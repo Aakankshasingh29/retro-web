@@ -5,19 +5,19 @@ const Community = () => {
     return (
       
 
-<div class="container mx-auto bg-pink-100 p-4 rounded-lg ">
-  <h1 class="text-2xl text-black font-bold mb-2">Become a Creator</h1>
-  <p className="text-xl text-black  ">At Retro Fusion,all our team members are known as Creators and we empower them to innovate, champion ground-breaking ideas, and bring courage <br>
+<div class="container mx-auto bg-blue-900 p-4 rounded-lg  ">
+  <h1 class="text-2xl text-gray-400 font-bold mb-2">Become a Creator</h1>
+  <p className="text-xl text-gray-400  ">At Retro Fusion,all our team members are known as Creators and we empower them to innovate, champion ground-breaking ideas, and bring courage <br>
   </br> - and fun  to work every day.</p>
   <div class="flex-row-reverse">
     <div className=" px-2 py-2 m-4 text-right  top-0 right-0 space-x-4" >
-    <button className=" rounded-full border border-black py-2 px-4 text-center text-sm transition-all shadow-sm hover:shadow-lg text-stone-600 hover:text-teal-400 hover:bg-black hover:border-slate-800 focus:text-black focus:bg-slate-800 focus:border-slate-800 active:border-slate-800 active:text-teal-400 active:bg-slate-800 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" >Default</button>
-    <button className=" rounded-full border border-black py-2 px-4 text-center text-sm transition-all shadow-sm hover:shadow-lg text-slate-600 hover:text-teal-400 hover:bg-black hover:border-slate-800 focus:text-black focus:bg-slate-800 focus:border-slate-800 active:border-slate-800 active:text-teal-400 active:bg-slate-800 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" >Default</button>
-    <button className=" rounded-full border border-black py-2 px-4 text-center text-sm transition-all shadow-sm hover:shadow-lg text-slate-600 hover:text-teal-400 hover:bg-black hover:border-slate-800 focus:text-black focus:bg-slate-800 focus:border-slate-800 active:border-slate-800 active:text-teal-400 active:bg-slate-800 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" >Default</button>
+    <button className=" rounded-full border border-gray-400 py-2 px-4 text-center text-sm transition-all shadow-sm hover:shadow-lg text-gray-400 hover:text-teal-400 hover:bg-black hover:border-slate-800 focus:text-black focus:bg-slate-800 focus:border-slate-800 active:border-slate-800 active:text-teal-400 active:bg-slate-800 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" >Default</button>
+    <button className=" rounded-full border border-gray-400 py-2 px-4 text-center text-sm transition-all shadow-sm hover:shadow-lg text-gray-400 hover:text-teal-400 hover:bg-black hover:border-slate-800 focus:text-black focus:bg-slate-800 focus:border-slate-800 active:border-slate-800 active:text-teal-400 active:bg-slate-800 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" >Default</button>
+    <button className=" rounded-full border border-gray-400 py-2 px-4 text-center text-sm transition-all shadow-sm hover:shadow-lg text-gray-400 hover:text-teal-400 hover:bg-black hover:border-slate-800 focus:text-black focus:bg-slate-800 focus:border-slate-800 active:border-slate-800 active:text-teal-400 active:bg-slate-800 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" >Default</button>
     </div>
   
 
-<div className=" bg-teal-600 rounded-md">
+<div className=" bg-indigo-300 rounded-md">
     <div className="text-xl">
         <h1 class="text-2xl font-bold mb-2 font-serif">Grow from zeroto → oneto →one million.</h1>
         </div>
@@ -59,7 +59,7 @@ const Community = () => {
         </p>
 
         <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
-            <div class="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
+            <div class="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-900 dark:border-gray-700 dark:hover:border-transparent">
                 <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="" />
 
 
@@ -97,7 +97,7 @@ const Community = () => {
                 </div>
             </div>
 
-            <div class="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
+            <div class="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-900 dark:border-gray-700 dark:hover:border-transparent">
                 <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt="" />
 
                 <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">Amelia. Anderson</h1>
@@ -134,7 +134,7 @@ const Community = () => {
                 </div>
             </div>
 
-            <div class="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
+            <div class="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-900 dark:border-gray-700 dark:hover:border-transparent">
                 <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src="https://images.unsplash.com/photo-1488508872907-592763824245?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />
 
                 <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">Olivia Wathan</h1>
@@ -171,7 +171,7 @@ const Community = () => {
                 </div>
             </div>
 
-            <div class="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
+            <div class="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-900 dark:border-gray-700 dark:hover:border-transparent">
                 <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="" />
 
                 <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">John Doe</h1>

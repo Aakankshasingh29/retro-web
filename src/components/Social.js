@@ -3,7 +3,7 @@ import React from 'react'
 const Social = () => {
     return (
 
-<div className='container mx-auto px-4 p-4 bg-teal-600'>
+<div className='container mx-auto px-4 p-4 bg-gray-800'>
   
   <div>
   

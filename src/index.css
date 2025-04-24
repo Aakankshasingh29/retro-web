@@ -5,4 +5,29 @@
 
 @import "tailwindcss/utilities";
 
-@import 'animate.css';
+@import 'flowbite';
+
+#root{
+    
+    background-color: #E6E6FA;
+
+      
+   /* background-image: radial-gradient(red 5%, green 15%, blue 60%); */
+ 
+
+/* background-color: rgb(29,78,216); 
+
+padding-left: 1rem; 
+
+padding-right: 1rem; 
+
+padding-top: 0.5rem; 
+
+padding-bottom: 0.5rem; 
+
+font-weight: 700; 
+
+color: rgb(255,255,255); */
+
+}
+    
