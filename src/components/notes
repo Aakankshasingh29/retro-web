@@ -244,3 +244,31 @@ animate__bounceInUp
       transform: "none"
   },
 },
+
+
+
+
+
+
+<div class="absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]"></div>
+
+
+hover:animate-fadeInBounceRight
+"fade-in-bounceup": {
+  "0%": {
+      opacity: 0,
+      transform: "translate3d(0%, 100%, 0)",
+  },
+  "33%": {
+      opacity: 0.5,
+      transform: "translate3d(0%, 0%, 0)",
+  },
+  "66%": {
+      opacity: 0.7,
+      transform: "translate3d(0%, 20%, 0)",
+  },
+  "100%": {
+      opacity: 1,
+      transform: "translate3d(0, 0, 0)",
+  },
+},

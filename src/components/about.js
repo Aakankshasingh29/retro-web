@@ -3,7 +3,7 @@ import Crossy from "../assests/crossy.jpg"
 import hayday from "../assests/hayday.jpg"
 import doodle from "../assests/doodle.jpg"
 import feeding from "../assests/feeding.jpg"
-import cartoon2 from "../assests/cartoon2.jpg"
+import fish from "../assests/fish.jpg"
 
 
 
@@ -48,7 +48,7 @@ const About = () =>{
 <div className="container mx-auto rounded-xl bg-black grid grid-cols-2 gap- p-4  ">
 <div class="bg-teal-950
         p-8 px-4 justify-between rounded-md">
-          <img src= {cartoon2} class = "rounded-xl animate-fadeInBounceUp "alt="#" />
+          <img src= {fish} class = "rounded-xl animate-fadeInBounceUp "alt="#" />
         </div>
         <div class="bg-stone-900
         text-gray-300 p-8 px-4 rounded-xl  ">

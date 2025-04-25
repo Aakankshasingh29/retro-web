@@ -5,19 +5,19 @@ const Community = () => {
     return (
       
 
-<div class="container mx-auto bg-blue-900 p-4 rounded-lg  ">
-  <h1 class="text-2xl text-gray-400 font-bold mb-2">Become a Creator</h1>
-  <p className="text-xl text-gray-400  ">At Retro Fusion,all our team members are known as Creators and we empower them to innovate, champion ground-breaking ideas, and bring courage <br>
-  </br> - and fun  to work every day.</p>
-  <div class="flex-row-reverse">
+<div class="container mx-auto  bg-blue-900 p-4 rounded-lg  ">
+  <h1 class=" text-2xl text-gray-400 font-bold mb-2">Become a Creator</h1>
+  <p className=" col-start-1 text-xl  text-gray-400  ">At Retro Fusion,all our team members are known as Creators and we empower them to innovate, champion ground-breaking ideas, and bring courage - and fun  to work every day.</p>
+  <div class="col-span-5">
     <div className=" px-2 py-2 m-4 text-right  top-0 right-0 space-x-4" >
     <button className=" rounded-full border border-gray-400 py-2 px-4 text-center text-sm transition-all shadow-sm hover:shadow-lg text-gray-400 hover:text-teal-400 hover:bg-black hover:border-slate-800 focus:text-black focus:bg-slate-800 focus:border-slate-800 active:border-slate-800 active:text-teal-400 active:bg-slate-800 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" >Default</button>
     <button className=" rounded-full border border-gray-400 py-2 px-4 text-center text-sm transition-all shadow-sm hover:shadow-lg text-gray-400 hover:text-teal-400 hover:bg-black hover:border-slate-800 focus:text-black focus:bg-slate-800 focus:border-slate-800 active:border-slate-800 active:text-teal-400 active:bg-slate-800 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" >Default</button>
     <button className=" rounded-full border border-gray-400 py-2 px-4 text-center text-sm transition-all shadow-sm hover:shadow-lg text-gray-400 hover:text-teal-400 hover:bg-black hover:border-slate-800 focus:text-black focus:bg-slate-800 focus:border-slate-800 active:border-slate-800 active:text-teal-400 active:bg-slate-800 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" >Default</button>
     </div>
+   
   
-
-<div className=" bg-indigo-300 rounded-md">
+</div>
+{/* <div className=" bg-indigo-300 h-45 rounded-md">
     <div className="text-xl">
         <h1 class="text-2xl font-bold mb-2 font-serif">Grow from zeroto → oneto →one million.</h1>
         </div>
@@ -47,9 +47,8 @@ const Community = () => {
         </li>
     </ul>
 </div>
-</div>
+</div> */}
 
-</div>
  <div className=" flex-col-reverse bg-purple-200 rounded-lg shadow dark:bg-gray-800 ">
     <div class="container px-2 py-5 mx-sm">
         <h1 class="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl dark:text-white">Our Executive Team</h1>
@@ -65,7 +64,7 @@ const Community = () => {
 
                 <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">arthur melo</h1>
 
-                <p class="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">design director</p>
+                <p class="mt-2 text-gray-500 capitalize dark:text-gray-600 group-hover:text-gray-600">design director</p>
 
                 <div class="flex mt-3 -mx-2">
                     <a href="#" class="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Reddit">
@@ -211,15 +210,10 @@ const Community = () => {
     </div>
 
 
-    </div>
-
-    
-    
-</div>
 
 
-
- 
+ </div>
+ </div>
     )
 }
 
